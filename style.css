@@ -1,0 +1,353 @@
+body{
+    background: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex; /* Flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.whole{
+    /* margin: 10px 90px; */
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+}
+
+.profile{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0 ;
+}
+.cat{
+    width: 100px;
+    border-radius: 50px;
+    border: solid white 1px;
+    margin: 30px 0px 0px 0px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+h4{
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: beige;
+}
+.fb, .ig, .yt, .tw, .tk, .th, .ds, .tg, .sp, .sf{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+    border: solid rgba(232, 243, 248, 0.808);
+    border-radius: 20px;
+    padding: 5px;
+    color: aliceblue;
+    /* width: 50%; */
+}
+.tg:hover{
+    background-color: #0088cc6b ;
+}
+.fb:hover{
+    background-color: rgba(0, 0, 255, 0.39);
+    color: rgb(255, 255, 255);
+}
+.ig:hover{
+    background: linear-gradient(#6459ca93, #bc319096 30%, #e33f609c 50%, #f77538a6 70%, #fec66d96 100%);
+    /* background-color: #e95a505d; */
+}
+.yt:hover{
+    background-color: rgba(255, 0, 0, 0.473);
+}
+.tw:hover{
+    background-color: #929292  ;
+}
+.tk:hover{
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+}
+.th:hover{
+    background-color: #6441a480;
+}
+.ds:hover{
+    background-color: #7288d99a;
+}
+.sp:hover{
+    background-color: rgba(255, 255, 0, 0.562);
+}
+.sf:hover{
+    background-color: #1db9548a;
+}
+
+a{
+    text-decoration: none;
+    color:  aliceblue;
+}
+.logo{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+/* .social:hover{
+    background-color: rgba(66, 78, 245, 0.699);
+    color: rgb(248, 246, 246);
+    border: solid rgb(255, 255, 255);
+    border-radius: 20px;
+} */
+
+
+@media only screen and (max-width:820px)  {
+    .whole{
+    /* margin: 10px 90px; */
+    width: 75%;
+    margin: 40px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    }
+    
+    body{
+    background: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh;  Ensure the body takes the full height of the viewport  */
+    width: 100%;
+    display: flex; /* Flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    }
+    .whole .main {
+    /* width: 95%; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    /* padding: 20px; */
+    }
+    h4{
+    display: flex;
+    margin: 40px auto;
+    justify-content: center;
+    color: beige;
+    /* padding: 30px auto; */
+    }
+    .main .fb, .ig, .tk, .tw{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    /* padding: 5px; */
+    
+    }
+    /* .whole .logo{
+    
+    } */
+    }
+    
+    /* Specific Media Queries for iPhone X and Higher */
+    @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .whole{
+    /* margin: 10px 90px; */
+    width: 75%;
+    margin: 40px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    }
+    
+    body{
+    background: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh;  Ensure the body takes the full height of the viewport  */
+    width: 100%;
+    display: flex; /* Flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    }
+    h4{
+    display: flex;
+    margin: 40px auto;
+    justify-content: center;
+    color: beige;
+    /* padding: 30px auto; */
+    }
+    .whole .main {
+    /* width: 95%; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    /* padding: 20px; */
+    }
+    
+    .main .fb, .ig, .tk, .tw{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    /* padding: 5px; */
+    
+    }
+    }
+    
+    @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+    .whole{
+    /* margin: 10px 90px; */
+    width: 75%;
+    margin: 40px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    }
+    
+    body{
+    background: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh;  Ensure the body takes the full height of the viewport  */
+    width: 100%;
+    display: flex; /* Flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    }
+    h4{
+    display: flex;
+    margin: 40px auto;
+    justify-content: center;
+    color: beige;
+    /* padding: 30px auto; */
+    }
+    .whole .main {
+    /* width: 95%; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    /* padding: 20px; */
+    }
+    
+    .main .fb, .ig, .tk, .tw{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    /* padding: 5px; */
+    
+    }
+    }
+    
+    /* Additional adjustments for larger screens */
+    @media only screen and (min-width: 1024px) {
+    .whole{
+    /* margin: 10px 90px; */
+    width: 75%;
+    margin: 40px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    }
+    
+    body{
+    background: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; Ensure the body takes the full height of the viewport */
+    width: 100%;
+    display: flex; /* Flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    }
+    h4{
+    display: flex;
+    margin: 40px auto;
+    justify-content: center;
+    color: beige;
+    /* padding: 30px auto; */
+    }
+    .whole .main {
+    /* width: 95%; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    /* padding: 20px; */
+    }
+    
+    .main .fb, .ig, .tk, .tw{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    /* padding: 5px; */
+    
+    }
+    }
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aliceblue; */
+    font-size: 30px;
+    
+}
+.fa-brands{
+    margin: 20px;
+}
+.fa-facebook{
+    color: blue; 
+}
+.fa-spotify{
+    color: #1DB954;
+}
+.fa-instagram{
+    color:  #e33f5f;
+}
+.fa-snapchat{
+    color: yellow;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-discord{
+    color: #7289da;
+}
+.fa-twitter{
+    color: #00abee;
+}
+.fa-twitch{
+    color: #6441a5   ;
+}
+.fa-telegram{
+    color: #0088cc ;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.bottom{
+    color: rgb(255, 255, 255);
+}
